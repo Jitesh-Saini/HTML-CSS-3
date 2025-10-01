@@ -1,0 +1,112 @@
+@font-face {
+    font-family: f1;
+    src: url(./Roadrage-owgBd.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#main a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#leftnav{
+    display: flex;
+    gap: 20px;
+    
+}
+#brand{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: f1;
+}
+
+#rightnav{
+    display: flex;
+    gap: 20px;
+}
+
+#main>h1{
+    font-size: 175px;
+    text-align: center;
+    margin-top: 47px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#leftcontentdetail{
+    position: absolute; 
+    margin: 100px 20px;
+    width: 200px;
+}
+
+#sizedetail{
+    margin-top: 20px;
+}
+#leftcontentdetail h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#first{
+    height: 300px;
+    position: absolute;
+    right: 190px;
+    top: 245px;
+    border-radius: 20px;
+}
+
+#second{
+    height: 300px;
+    position: absolute;
+    right: 370px;
+    top: 340px;
+    border-radius: 20px;
+}
+
+#third{
+    height: 300px;
+    position: absolute;
+    right: 580px;
+    top: 250px;
+    border-radius: 20px;
+}
+
+#fourth{
+    height: 300px;
+    position: absolute;
+    right: 780px;
+    top: 340px;
+    border-radius: 20px;
+}
+
+
+#bottomnav{
+    display: flex;
+    justify-content: space-between;
+    margin: 340px 20px;
+}
+#b1{
+    font-style: italic;
+}
